@@ -16,13 +16,17 @@
         <PersonajeDestacado>
             Test persona <Nombre></Nombre> y fecha de nacimiento: <FechaNacimiento></FechaNacimiento>
         </PersonajeDestacado>
+        <FechaRelevante/>
     </HechoHistorico>
     <HechoHistorico descripcion="">
         <Fecha>
             2022-10-09
         </Fecha>
-        <Epoca/>
+        <Epoca>
+            <EPOCA2></EPOCA2>
+        </Epoca>
         <PersonajeDestacado></PersonajeDestacado>
         <PersonajeDestacado></PersonajeDestacado>
+        <FechaRelevante/>
     </HechoHistorico>
 </HechosHistoricos>
