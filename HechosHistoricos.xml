@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
+<!DOCTYPE HechosHistoricos SYSTEM "HechosHistoricos.dtd">
 <HechosHistoricos>
-
+    <HechoHistorico descripcion="">
+        <Fecha>
+            <FormatoFecha>
+            <Dia>01</Dia>
+            <Mes>01</Mes>
+            <Año>2022</Año>
+            </FormatoFecha>
+        </Fecha>
+        <Epoca>
+            <EPOCA1></EPOCA1>
+        </Epoca>
+        <PersonajeDestacado>
+            Test persona <Nombre></Nombre> y fecha de nacimiento: <FechaNacimiento></FechaNacimiento>
+        </PersonajeDestacado>
+    </HechoHistorico>
+    <HechoHistorico descripcion="">
+        <Fecha>
+            2022-10-09
+        </Fecha>
+        <Epoca/>
+        <PersonajeDestacado></PersonajeDestacado>
+        <PersonajeDestacado></PersonajeDestacado>
+    </HechoHistorico>
 </HechosHistoricos>
