@@ -1,10 +1,20 @@
 <!ELEMENT HechosHistoricos (HechoHistorico)+>
-<!ATTLIST HechoHistorico descripcion CDATA #REQUIRED>
+<!ATTLIST HechosHistoricos version CDATA #FIXED "1.1"
+                           clave NMTOKEN #REQUIRED
+                           >
+<!ATTLIST HechosHistoricos xml:lang (es|en) #REQUIRED>
+<!ATTLIST HechoHistorico descripcion CDATA #IMPLIED
+                         autor CDATA #FIXED 'oscar'>
 <!ELEMENT HechoHistorico (Fecha, Epoca?, PersonajeDestacado*, FechaRelevante)?>
 <!ELEMENT Epoca (EPOCA1 | EPOCA2)>
 <!ELEMENT EPOCA1 (#PCDATA)>
 <!ELEMENT EPOCA2 (#PCDATA)>
 <!ELEMENT PersonajeDestacado ANY>
+<!ATTLIST PersonajeDestacado paisOrigen (FRANCIA|ESPAÑA|ALEMANIA|JAPON|EEUU) #REQUIRED
+                             cedula ID #IMPLIED
+                             cedulaHermano IDREF #IMPLIED
+                             cedulasPrimos IDREFS #IMPLIED>
+
 <!ELEMENT FechaRelevante EMPTY>
 <!ELEMENT Nombre (#PCDATA)>
 <!ELEMENT FechaNacimiento (#PCDATA)>

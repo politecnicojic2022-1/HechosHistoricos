@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <!DOCTYPE HechosHistoricos SYSTEM "HechosHistoricos.dtd">
-<HechosHistoricos>
-    <HechoHistorico descripcion="">
+<HechosHistoricos version="1.1" clave="any7:5478-ABCDEF" xml:lang="es">
+    <HechoHistorico autor="oscar">
         <Fecha>
             <FormatoFecha>
             <Dia>01</Dia>
@@ -13,20 +13,20 @@
         <Epoca>
             <EPOCA1></EPOCA1>
         </Epoca>
-        <PersonajeDestacado>
+        <PersonajeDestacado paisOrigen="ESPAÑA" cedulasPrimos="cedula1 cedula2">
             Test persona <Nombre></Nombre> y fecha de nacimiento: <FechaNacimiento></FechaNacimiento>
         </PersonajeDestacado>
         <FechaRelevante/>
     </HechoHistorico>
-    <HechoHistorico descripcion="">
+    <HechoHistorico descripcion='test' autor="oscar">
         <Fecha>
             2022-10-09
         </Fecha>
         <Epoca>
             <EPOCA2></EPOCA2>
         </Epoca>
-        <PersonajeDestacado></PersonajeDestacado>
-        <PersonajeDestacado></PersonajeDestacado>
+        <PersonajeDestacado paisOrigen="ALEMANIA" cedula="cedula1"></PersonajeDestacado>
+        <PersonajeDestacado paisOrigen="JAPON" cedula="cedula2" cedulaHermano="cedula1"></PersonajeDestacado>
         <FechaRelevante/>
     </HechoHistorico>
 </HechosHistoricos>
