@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
-<marcadores>
-    <pagina>
-        <nombre></nombre>
-        <descripcion></descripcion>
-        <url></url>
+<?xml-style ?>
+<marcadores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="Macadores.xsd">
+    <pagina ssl="false">
+        <nombre>Abrirllave</nombre>
+        <descripcion>Tutoriales de informática.</descripcion>
+        <url>http://www.abrirllave.com/</url>
+        <año>2000</año>
+        <tipo_pagina>educativa</tipo_pagina>
+        <correo>oscar@gmail.com</correo>
     </pagina>
-    <pagina>
-        <nombre></nombre>
-        <descripcion></descripcion>
-        <url></url>
+    <pagina ssl='false'>
+        <nombre>Wikipedia</nombre>
+        <descripcion>La enciclopedia libre</descripcion>
+        <url>http://www.wikipedia.org/</url>
+        <año>2005</año>
+        <tipo_pagina>deportiva</tipo_pagina>
     </pagina>
-    <pagina>
-        <nombre></nombre>
-        <descripcion></descripcion>
-        <url></url>
+    <pagina ssl="false">
+        <nombre>W3C</nombre>
+        <descripcion>Word Wide Web Consortium.</descripcion>
+        <url>http://www.w3.org/</url>
+        <año>2020</año>
     </pagina>
 </marcadores>
