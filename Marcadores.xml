@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-style ?>
+<?xml-stylesheet type="text/xsl" href="Marcadores.xsl" ?>
 <marcadores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:noNamespaceSchemaLocation="Macadores.xsd">
     <pagina ssl="false">
